@@ -311,7 +311,7 @@ var chart = {
   }
 }
 
-d3.json('data/temp.json', function(temperatureData) {
+d3.json('https://raw.githubusercontent.com/j-clapper/BC-harvest-history/master/uktemperaturelines/data/lumber_exports.json', function(temperatureData) {
 
 	chart.data = temperatureData;
 	chart.init();
